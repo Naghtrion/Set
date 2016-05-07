@@ -1,0 +1,8 @@
+name: Survival
+main: me.naghtrion.setsurvival.Set
+author: Naghtrion
+version: 1.0
+
+commands:
+  survival:
+    description: Ir ao survival

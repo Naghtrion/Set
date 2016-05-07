@@ -1,0 +1,40 @@
+#
+# Autor: Naghtrion
+# Email: naghtrion@hotmail.com
+# Skype: naghtrion
+#
+
+
+#Comandos:
+# survival:
+#   descrição: Ir ao local do survival
+#   permissão: Nenhuma
+# survival set || survival marcar:
+#   descrição: Marcar a locação do Survival
+#   permissão: survival.set
+# survival del || survival apagar || survival deletar:
+#   descrição: Deletar a locação do Survival
+#   permissão: survival.del
+
+
+#Variável:
+#  @tempo
+#    descrição: Mostra o tempo para teleporte
+
+
+#quando não haver o local definido na location.yml
+SemLocation: "&cNão foi encontrado o local do Survival"
+
+Teleporte:
+  #quando o player for teleportado
+  Teleportado: "&6Teleporting..."
+  #delay para o player ser teleportado ao local #em segundos
+  Delay: 3
+  #mensagem para o player que está aguardando o teleporte e usou o comando novamente
+  Aguarde: "&bAguarde &f@tempo segundos&b, para ser teleportado."
+
+Location:
+  Marcado: "&2Local marcado com sucesso!"
+  Apagado: "&cLocal apagado com sucesso!"
+
+SemPermissao: "&cSem permissao."
