@@ -15,7 +15,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Set extends JavaPlugin 
 {
-	public static ArrayList<Player> delay = new ArrayList<Player>();
+	public static ArrayList<String> delay = new ArrayList<String>();
 
 	public void onEnable() 
 	{
